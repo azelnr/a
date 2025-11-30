@@ -1,0 +1,27 @@
+h1 {
+  font-size: 50px;
+  color: #cbad65;
+  font-family: "Pacifico", cursive;
+  text-decoration: line-through;
+  text-align: center;
+}
+
+body {
+  height: 100vh;
+  background-image: url(img/tree.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+a {
+  display: block;
+  width: 200px;
+  height: 80px;
+  background-image: url(img/button.png);
+  background-position: center bottom;
+}
+
+a:hover {
+  background-position: center top;
+}
